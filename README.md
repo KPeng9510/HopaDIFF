@@ -8,6 +8,25 @@ Action segmentation is a core challenge in high-level video understanding, aimin
 
 ## More Ablation Experiments
 
+**Table: Experimental results with BLIPv2 cross-modal feature extractor and under cross-movie evaluation setting on the RHAS dataset, using frame length 2000.**
+
+| **Method**                  | **Val ACC** | **Val EDIT** | **Val F1@10** | **Val F1@25** | **Val F1@50** | **Test ACC** | **Test EDIT** | **Test F1@10** | **Test F1@25** | **Test F1@50** |
+|----------------------------|-------------|--------------|---------------|----------------|----------------|--------------|---------------|----------------|----------------|----------------|
+| FACT [[1]](#ref1)          | 38.06       | 0.44         | 75.26         | 73.88          | 70.52          | 36.95        | 0.50          | 73.89          | 72.84          | 70.62          |
+| ActDiff [[2]](#ref2)       |             |              |               |                |                |              |               |                |                |                |
+| ASQuery [[3]](#ref3)       |             |              |               |                |                |              |               |                |                |                |
+| LTContent [[4]](#ref4)     |             |              |               |                |                |              |               |                |                |                |
+| RefAtomNet [[5]](#ref5)    |             |              |               |                |                |              |               |                |                |                |
+| **Ours**                   |             |              |               |                |                |              |               |                |                |                |
+
+---
+
+**References**  
+<a name="ref1">[1]</a> Lu et al., FACT, 2024  
+<a name="ref2">[2]</a> Liu et al., ActDiff, 2023  
+<a name="ref3">[3]</a> Gan et al., ASQuery, 2024  
+<a name="ref4">[4]</a> Bahrami et al., LTContent, 2023  
+<a name="ref5">[5]</a> Peng et al., RefAtomNet, 2024  
 
 
 ## Dataset Download Links
