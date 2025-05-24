@@ -143,3 +143,163 @@ Github repository for referring human action segmentation
 | 135   | working         |
 | 136   | writing         |
 | 137   | yawning         |
+
+##Clusterring of the actions
+
+# Action Clustering
+
+## 🔵 Person-Person Interaction (PPI)
+
+| Index | Action      |
+|-------|-------------|
+| 2     | asking      |
+| 3     | beckoning   |
+| 9     | calling     |
+| 12    | clapping    |
+| 16    | coughing    |
+| 41    | giving      |
+| 42    | grabbing    |
+| 45    | helping     |
+| 46    | hitting     |
+| 48    | hugging     |
+| 51    | kissing     |
+| 53    | knocking    |
+| 54    | laughing    |
+| 58    | listening   |
+| 72    | nodding     |
+| 78    | pointing    |
+| 86    | receiving   |
+| 99    | shouting    |
+| 100   | showing     |
+| 102   | singing     |
+| 105   | slapping    |
+| 111   | speaking    |
+| 123   | talking     |
+| 132   | waving      |
+| 137   | yawning     |
+
+---
+
+## 🟢 Person-Object Interaction (POI)
+
+| Index | Action         |
+|-------|----------------|
+| 1     | arranging      |
+| 4     | bending        |
+| 5     | bleeding       |
+| 8     | brushing       |
+| 10    | carrying       |
+| 11    | catching       |
+| 14    | closing        |
+| 15    | cooking        |
+| 17    | covering       |
+| 21    | cutting        |
+| 24    | dragging       |
+| 25    | drawing        |
+| 26    | drinking       |
+| 27    | driving        |
+| 28    | dropping       |
+| 29    | eating         |
+| 30    | entering       |
+| 32    | fixing         |
+| 33    | flipping       |
+| 39    | gettingon      |
+| 38    | gettingdown    |
+| 44    | hanging        |
+| 46    | hitting        |
+| 47    | holding        |
+| 50    | kicking        |
+| 57    | lifting        |
+| 59    | litting        |
+| 63    | makinghair     |
+| 73    | opening        |
+| 74    | picking        |
+| 75    | picturing      |
+| 77    | playingmusic   |
+| 79    | pouring        |
+| 80    | pulling        |
+| 81    | pushing        |
+| 82    | putting        |
+| 85    | reading        |
+| 87    | removing       |
+| 88    | riding         |
+| 89    | rolling        |
+| 90    | rubbing        |
+| 92    | sawing         |
+| 94    | searching      |
+| 95    | shaking        |
+| 98    | shooting       |
+| 106   | sleeping       |
+| 107   | smearing       |
+| 108   | smelling       |
+| 110   | smoking        |
+| 114   | standingup     |
+| 116   | straighteningup|
+| 118   | struggling     |
+| 120   | swing          |
+| 121   | taking         |
+| 122   | takingoff      |
+| 125   | throwing       |
+| 126   | tidying        |
+| 127   | touching       |
+| 131   | watering       |
+| 133   | wearing        |
+| 134   | wiping         |
+| 135   | working        |
+| 136   | writing        |
+
+---
+
+## 🟠 Person Physical Movements (PPM)
+
+| Index | Action           |
+|-------|------------------|
+| 6     | bowing           |
+| 7     | breathing        |
+| 13    | climbing         |
+| 18    | crawling         |
+| 19    | crossing         |
+| 20    | crying           |
+| 22    | dancing          |
+| 23    | dodging          |
+| 31    | falling          |
+| 34    | flying           |
+| 35    | frowning         |
+| 36    | gesturing        |
+| 37    | getting          |
+| 40    | gettingup        |
+| 43    | handsinpocket    |
+| 49    | jumping          |
+| 52    | kneeling         |
+| 55    | leaning          |
+| 56    | leaving          |
+| 60    | looking          |
+| 61    | lookingdown      |
+| 62    | lying            |
+| 64    | moveeyes         |
+| 65    | movehand         |
+| 66    | movehead         |
+| 67    | movemouth        |
+| 68    | moving           |
+| 69    | movingbody       |
+| 70    | movingonstairs   |
+| 71    | no               |
+| 76    | playing          |
+| 91    | running          |
+| 93    | seaching         |
+| 96    | shakingbody      |
+| 97    | shocking         |
+| 101   | sighing          |
+| 103   | sitting          |
+| 104   | sittingdown      |
+| 112   | squatting        |
+| 113   | standing         |
+| 115   | stopping         |
+| 117   | stretching       |
+| 119   | swimming         |
+| 124   | thinking         |
+| 128   | turning          |
+| 129   | walking          |
+| 130   | watching         |
+
+
