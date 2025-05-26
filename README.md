@@ -37,6 +37,7 @@ Action segmentation is a core challenge in high-level video understanding, aimin
 
 * Recommended Environment: Python 3.9.2, Cuda 11.4, PyTorch 1.10.0
 * Install dependencies: `pip3 install -r requirements.txt`
+* The number of parameters is 415M
 
 
 
@@ -45,6 +46,7 @@ Action segmentation is a core challenge in high-level video understanding, aimin
 * Generate config files by `python3 default_configs.py`
 * Simply run `python3 main.py --config configs/some_config.json --device gpu_id`
 * Trained models and logs will be saved in the `result` folder
+  
 
 
 
