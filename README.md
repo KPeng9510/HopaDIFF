@@ -32,7 +32,7 @@ Action segmentation is a core challenge in high-level video understanding, aimin
 
 ## Dataset Download Links
 
-The huggingface link can be accessed here https://huggingface.co/datasets/KPeng9510/RHAS133/tree/main.
+The huggingface link will be posted afterwards, since it could not be made anonymous.
 
 ## Setup
 
