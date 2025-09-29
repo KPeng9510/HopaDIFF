@@ -96,7 +96,7 @@ def levenstein(p, y, norm=False):
             #ind_l,_ = np.where((y[j-1]!=0))
             ind_l = np.nonzero(y[j-1])
             ind_p = np.argpartition(p[i-1], -len(ind_l))[-len(ind_l):]
-            if np.sum(np.sort(ind_l) == np.sort(ind_p))>=1:
+            if np.sum(np.sort(ind_l) == np.sort(ind_p))== len(ind_l):
                 #   if False not in y[j-1] == p[i-1]:
                 D[i, j] = D[i-1, j-1]
             else:
@@ -133,7 +133,7 @@ def f_score(recognized, ground_truth, overlap, bg_class=["-1"]):
             ind_p = np.argpartition(p_label[j], -len(ind_l))[-len(ind_l):]
             #print(ind_l)
             #print(ind_p)
-            judge.append(np.sum(np.sort(ind_l) == np.sort(ind_p))>=1)
+            judge.append(np.sum(np.sort(ind_l) == np.sort(ind_p))== len(ind_l):)
         #print(judge)
         IoU = np.abs((1.0*intersection / union)*(judge)) 
         #print(IoU)
@@ -165,7 +165,7 @@ def func_eval(label_dir, pred_dir, video_list):
             total += 1
             ind_l = np.nonzero(gt_content[i])
             ind_p = np.argpartition(pred_content[i], -len(ind_l))[-len(ind_l):]
-            if np.sum(np.sort(ind_l) == np.sort(ind_p))>=1:
+            if np.sum(np.sort(ind_l) == np.sort(ind_p))== len(ind_l)::
                 correct += 1
 
         edit += edit_score(pred_content, gt_content)
