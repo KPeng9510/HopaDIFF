@@ -32,7 +32,7 @@ Action segmentation is a core challenge in high-level video understanding, aimin
 
 ## Dataset Download Links
 
-The huggingface link will be posted afterwards, since it could not be made anonymous.
+The dataset is uploading to this google drive link, https://drive.google.com/drive/folders/1061cqqvCdx-GC9a7JqNZ0FoovJqzeYbQ?usp=sharing.
 
 ## Setup
 
